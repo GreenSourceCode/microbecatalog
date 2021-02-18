@@ -1,0 +1,98 @@
+body {
+    background-color: #151965;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+hr {
+    border:none;
+    border-top: 3px solid black;
+    color:#fff;
+
+
+}
+h1 {
+    margin: 0 auto 0 auto;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    /* font-size: 400%; /* 100% = 16px therefore 400% = 64 px. The formula goes as follows: (DesiredSize / 16) * 100 = Required Percentage                */
+    font-size: 4rem; /* WILL ALWAYS STAY THE SAME SIZE (4x16, so 64px ), and is easier to debug  */
+    line-height: 1.3;
+    color: #151965;
+    border: dotted;
+    width:60%;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    line-height: 0.25;
+    
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+.title-container {
+    background-color: #515585;
+    position: relative;
+    padding-top: 100px;
+    width: 100%;
+    border: solid;
+}
+.right-germ {
+    position: absolute;
+    right: 80px;
+    top: 370px;
+}
+.left-germ {
+    position: absolute;
+    left: 45px;
+    top: 215px;
+}
+.mainSubtitle {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+.listImage {     /* Make image smaller */
+    width: 100px;
+    height: auto;
+}
+.our-mission {
+    background-color: #151965;
+    color: black;
+    padding-bottom: 0;
+}
+.how-to-use-font-color {
+    color: #515585;
+}
+.microbe-list {
+    background-color: #32407b;
+    position: relative;
+    border: solid;
+}
+/************************************************** MICROBES ******************************************************/
+.first-microbe {
+    background-color: #515585;
+    position: relative;
+    border: dotted;
+}
+.second-microbe {
+    background-color: #32407b;
+    position: relative;
+    border: dotted;
+}
+.third-microbe {
+    background-color: #515585;
+    position: relative;
+    border: dotted;
+}
+.fourth-microbe {
+    background-color: #32407b;
+    position: relative;
+    border: dotted;
+}
+.fifth-microbe {
+    background-color: #515585;
+    position: relative;
+    border: dotted;
+}
